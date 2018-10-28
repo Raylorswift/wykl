@@ -1,0 +1,325 @@
+        .wrap{
+	    	width: 1000px;
+	    	margin: 0 auto;
+	    }
+	    .icons{
+	    	border-top: 1px solid #ccc;
+	    	padding-top: 7px;
+	    }
+	    .icons .iconfont{
+	    	/*font-size: 16px;*/
+	    }
+	    .icons{
+			margin: 1em auto;
+		}
+		.icons i{
+			margin-right: 10px;
+		}
+	    .icons .iconfont:hover,.icons .fa:hover{
+	    	cursor: pointer;
+	    	opacity: 0.8;
+	    }
+	    .icons .icon-weixin{
+	    	color: green;
+	    	font-size: 25px;
+	    }
+	    .icons .icon-QQ,.icons .icon-pay-Paytreasure{
+	    	color: rgb(18,150,219);
+	    	font-size: 25px;
+	    }  
+	    .icons .fa-weibo{
+	    	color: rgb(255,121,119);
+	    	font-size: 25px;
+	    } 
+	    .icons .wrap>a{
+	    	color: #e31436;
+	    	/*margin-left: 180px;*/
+	    }
+	    .icons .wrap>a:hover{
+	    	text-decoration: underline;
+	    }
+
+
+		.header .left{
+			height: 100px;
+		}
+		.content{
+            width: 1349px;
+		    /*background-color:#f5433f;*/
+		}
+		.content .banner{
+			height: 520px;
+			background: url("../image/bg4.jpg") 0 0 no-repeat;
+		}
+		.content .banner::after{
+			content: "";
+			display: block;
+			clear: both;
+		}
+		.reg{
+			width: 350px;
+			height: 400px;
+			background-color: white;
+			float: left;
+			margin-top: 20px;
+			background-color: #f8f8f8;
+
+		}
+		.reg .wrap{
+			width: 270px;
+			margin: 0 auto;
+		}
+		.reg .header{
+			box-shadow: 0 1px 2px #ccc;
+		}
+		.reg .header-left{
+			float: left;
+            font-size: 1.2em;
+            font-weight: bold;
+            width: 130px;
+            line-height: 50px;
+            text-align: center;
+            border-right: 1px solid #ccc;
+		}
+		.reg .header-right{
+			float: right;
+			width: 130px; 
+			font-size: 1.2em;
+			font-weight: bold;
+			text-align: center;
+			line-height: 50px;
+		}
+        .reg .header-left>a{
+        	color: red;
+        }
+        .reg .header-right>a:hover{
+        	color: red;
+        }
+		.reg .header .wrap::after{
+			content: "";
+			display: block;
+			clear: both;
+		}
+		.reg .intro{
+			margin-top: 20px;
+			margin-bottom: 10px;
+		}
+		.reg .intro .wrap::after{
+			content: "";
+			display: block;
+			clear: both;
+		}
+		.reg .intro .wrap>p{
+			float: right;
+		}
+		.reg .intro .wrap>p>a:hover{
+			color: red;
+		}
+	
+		
+		.reg .zc .first{
+			/*top: 5px;*/
+			width: 270px;
+			margin: 1em auto;
+			border: 1px solid #ccc;
+			padding: 5px 0;
+			height: 40px;
+			box-sizing: border-box;
+			position: relative;
+		}
+		
+		.reg .zc .first-one{
+			box-sizing: border-box;
+			float: left;
+			width: 30px;
+			line-height: 30px;
+			text-align: center;
+			/*border-right: 1px solid #ccc;*/
+		}
+		.reg .zc .first-two{
+			width: 240px;
+			margin-left: 30px;
+		}
+		.reg .zc .first-two>input{
+			width: 200px;
+			/*padding-left: 1em;*/
+			height: 30px;
+			border: none;
+		}
+		.reg .first-two>input:focus+.close{
+			display: block;
+		}
+        .reg .first .close{
+        	position: absolute;
+			right: 1em;
+			height: 30px;
+			line-height: 30px;
+			top: 5px;
+			display: none;
+        }
+
+		.reg .zc .two{
+			margin: 20px auto;
+			border: 1px solid #ccc;
+			border-top-left-radius:1em;
+	        border-top-right-radius:1em;
+	        border-bottom-left-radius:1em;
+	        border-bottom-right-radius:1em;
+			width: 270px;
+			line-height: 30px;
+
+		}
+		.reg .zc .two::after{
+			content: "";
+			display: block;
+			clear: both;
+		}
+		.reg .two .two-left{
+			float: left;
+			width: 60px;
+			height: 28px;
+			border: 1px solid #ccc;
+			border-top-left-radius:1em;
+	        border-top-right-radius:1em;
+	        border-bottom-left-radius:1em;
+	        border-bottom-right-radius:1em;
+		}
+		.reg .two .two-right{
+			float: right;
+			margin-right: 10px;
+			background-color: #eeeeee;
+
+		}
+		.reg .three{
+			width: 270px;
+			line-height: 35px;
+			border: 1px solid #ccc;
+			margin-bottom: 20px;
+		}
+		.reg .three::after{
+			content: "";
+			display: block;
+			clear: both;
+		}
+		.reg .three-left>input{
+			float: left;
+			width: 160px;
+			height: 35px;
+			border: none;
+		}
+        .reg .three-right{
+        	float: right;
+        	width: 107px;
+        	text-align: center;
+        	background-color: #eeeeee;
+        }
+        .reg .three-right:hover{
+        	cursor: pointer;
+        	color: red;
+        }
+        
+       .reg .denglu{
+        	width: 270px;
+        	line-height: 35px;
+        	background-color: #e31436;
+        	font-size: 1.3em;
+        	color: white;
+        	margin: .5em auto;
+        	text-align: center;
+        }
+        .reg .denglu:hover{
+        	cursor: pointer;
+        	opacity: 0.8;
+        }
+        .reg .footer{
+        	font-size: 0.9em;
+        	color: #999999;
+        }
+        /*.reg .wrap{
+        	margin: 0 auto;
+        	width: 270px;
+        }*/
+        .reg .footer .wrap::after{
+        	content: "";
+        	display: block;
+        	clear: both;
+        }
+        .reg .footer .left{
+        	float: left;
+        }
+        .reg .footer .right{
+        	float: right;
+        }
+        .reg .footer>input{
+        	position: relative;
+        	top: 2px;
+        }
+        .reg .footer .left:hover{
+        	cursor: pointer;
+        	color: red;
+        }
+        .reg .footer a:hover{
+        	color: red;
+        }
+        /*.icons{
+			margin: 1em auto;
+		}
+		.icons i{
+			margin-right: 20px;
+		}*/
+		.aside{
+			margin-top: 20px;
+		}
+		.aside .links::after{
+			content: "";
+			display: block;
+			clear: both;
+		}
+		.aside .links>li{
+			float: left;
+			border-right: 2px solid #ccc;
+			margin-right: 16px;
+			padding-right: 18px;
+		}
+		.aside .links>li:last-child{
+			border: none;
+		}
+		.aside .links>li:hover>a{
+			cursor: pointer;
+			color: #ccc;
+		}
+		.footer{
+			margin-top: 10px;
+		}
+		.footer .intro{
+			margin-left: 100px;
+			font-size: 0.9em;
+			color: #999999;
+		}
+		.footer .intro>p>span{
+			color: #666666;
+		}
+		.footer .intro span:hover{
+			opacity: 0.7;
+			cursor: pointer;
+		}
+		.footer .intro>img{
+			position: relative;
+			top: 8px;
+		}
+		.footer .pic{
+			margin-top: 8px;
+		}
+		.footer .intro .pic>img{
+			display: block;
+			margin: 0  auto;
+		}
+		.footer .intro>img:hover{
+			opacity: 0.6;
+			cursor: pointer;
+		}
+		.footer .pic>img:hover{
+			opacity: 0.6;
+			cursor: pointer;
+		}
+		

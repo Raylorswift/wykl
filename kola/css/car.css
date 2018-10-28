@@ -1,0 +1,419 @@
+.wrap{
+	width: 1090px;
+	margin: 0 auto;
+}
+h3{
+	margin: 0;
+	padding: 0;
+}
+.first{
+
+	background-color: black;
+}
+.first .nav>li:hover i.fa{
+	transform: rotate(180deg);
+	color: red;
+}
+.first .nav::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.first .nav>li{
+	float: left;
+	color: #999999;
+	line-height: 31px;
+	margin-right: 20px;
+}
+.first .nav li>a{
+	color: #999999;
+}
+.first .nav>li:nth-child(1)~*:hover>a{
+	color: white;
+}
+.first .nav>li:nth-child(4){
+	margin-right: 240px;
+}
+.first .nav>li:nth-child(6)~*{
+	position: relative;
+}
+.first .nav>li:nth-child(6)~*:hover>a{
+	color: red;
+}
+.first .sub-nav{
+	width: 120px;
+	text-align: center;
+	background-color: white;
+	position: absolute;
+	top: 31px;
+	display: none;
+}
+.first .sub-nav>ul>li:hover>a{
+	color: red;
+	/*text-decoration: underline;*/
+}
+.first .nav>li:nth-child(6)~*:hover>.sub-nav{
+	display: block;
+	z-index: 1;
+	border: 1px solid #ccc;
+}
+.second .left{
+	height: 100px;
+}
+.three{
+	/*margin: 1em auto;*/
+}
+.three .wrap>h3{
+	float: left;
+	width: 100px;
+	height: 32px;
+	line-height: 32px;
+}
+.three .wrap>p{
+	width: 500px;
+	height: 32px;
+	line-height: 32px;
+	margin-left: 580px;
+}
+.three .wrap>p>.red{
+	color: red;
+}
+.three .wrap>p a{
+	color: #8db8f3;
+}
+.three .wrap>p a:hover{
+	text-decoration: underline;
+}
+.three .wrap>p>.area{
+	border: 1px solid #ccc;
+}
+.three .wrap>p>.area:hover{
+	cursor: pointer;
+}
+.four{
+}
+.four .header::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.four .header{
+	border: 1px solid #ccc;
+}
+.four .header>li{
+	width: 130px;
+	height: 34px;
+	line-height: 34px;
+	text-align: center;
+	float: left;
+}
+.four .header>li:nth-child(2){
+	width: 420px;
+	height: 34px;
+}
+.four .info{
+	text-align: left;
+	padding-left: 37px;
+	margin-top: 30px;
+	box-sizing: border-box;
+}
+.four .info .hei{
+	color: white;
+	background-color: black;
+}
+.four .info .ziying{
+	font-weight: bold;
+}
+.four .thing{
+	/*height: 120px;
+	line-height: 120px;*/
+	border: 1px solid #ccc;
+	background-color: #fffbf0;
+	padding-left: 37px;
+	margin-top: 15px;
+}
+.four .thing::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.four .thing>li{
+	box-sizing: border-box;
+	/*height: 120px;*/
+	width: 130px;
+	float: left;
+	text-align: center;
+}
+.four .thing>li:nth-child(1){
+	width: 47px;
+	text-align: left;
+	padding: 21px 0;
+	position: relative;
+	top: 30px;
+}
+.four .thing>li:nth-child(2){
+	width: 80px;
+	padding: 20px 0;
+}
+.four .thing>li:nth-child(2)>a{
+	display: inline-block;
+}
+.four .thing>li:nth-child(3){
+	box-sizing: border-box;
+	width: 250px;
+	height: 100px;
+	padding-right: 30px;
+	margin-left: 15px;
+	text-align: left;
+}
+.four .thing>li:nth-child(3) .kl{
+	display: block;
+	width: 220px;
+	height: 37px;
+	font-size: 12px;
+	margin-top: 15px;
+}
+.four .thing>li:nth-child(3) .kl>a:hover{
+	color: red;
+}
+.four .thing>li:nth-child(3) .th{
+	width: 120px;
+	height: 15px;
+	margin-bottom: 8px;
+	font-size: 0.9em;
+}
+.four .thing>li:nth-child(3) .red{
+	color: white;
+	background-color: red;
+}
+.four .thing>li:nth-child(3) .hei{
+	color: #666666;
+}
+.four .thing>li:nth-child(3) .bn{
+	width: 50px;
+	height: 20px;
+	border-radius: 1em;
+	color: red;
+	text-align: center;
+	border: 1px solid #f3c7c7;
+	background-color: white;
+	position: relative;
+}
+.four .thing>li:nth-child(3) .bn .sub-nav{
+	position: absolute;
+	top: 24px;
+	display: none;
+	width: 85px;
+	height: 40px;
+	line-height: 40px;
+	color: black;
+	text-align: center;
+	background-color: white;
+	border: 1px solid #ccc;
+}
+.four .thing>li:nth-child(3) .bn:hover{
+	cursor: pointer;
+	color: white;
+	background-color: rgb(227,20,54);
+}
+.four .thing>li:nth-child(3) .bn .ys{
+	color: red;
+}
+.four .thing>li:nth-child(3) .bn:hover .sub-nav{
+	display: block;
+}
+ul,li{
+	list-style: none;
+}
+.four .thing>li:nth-child(4){
+	width: 108px;
+	height: 80px;
+	line-height: 80px;
+	text-align: left;
+	margin-left: 150px;
+	padding-left: 15px;
+}
+.four .thing>li:nth-child(4)>p{
+	width: 88px;
+	height: 21px;
+}
+.four .thing>li:nth-child(4) .del{
+	text-decoration-line: line-through;
+	font-size: 0.9em;
+}
+.four .thing .bold{
+	font-weight: bold;
+}
+.four .thing>li:nth-child(5){
+	width: 123px;
+	line-height: 24px;
+	padding-top: 28px;
+	padding-left: 10px;
+}
+.four .thing>li:nth-child(5)::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.four .thing>li:nth-child(5)>span,.four .thing>li:nth-child(5)>input{
+	display: block;
+	float: left;
+}
+.four .thing>li:nth-child(5)>span{
+	border: 1px solid #ccc;
+	width: 24px;
+	background-color: white;
+}
+.four .thing>li:nth-child(5) .gray{
+	color: #ccc;
+}
+.four .thing>li:nth-child(5)>input{
+	width: 43px;
+	height: 22px;
+	border: 1px solid #ccc;
+	text-align: center;
+	font-size: 1.1em;
+	background-color: #cce8cf;
+}
+.four .thing>li:nth-child(6){
+	width: 170px;
+	line-height: 80px;
+	padding-right: 40px;
+}
+.four .thing>li:nth-child(7){
+	width: 107px;
+	height: 60px;
+	line-height: 60px;
+	text-align: left;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+.four .thing>li:nth-child(7)>a{
+	display: block;
+	width: 93px;
+	height: 25px;
+}
+.four .thing>li:nth-child(7)>a:hover{
+	text-decoration: underline;
+}
+
+.five{
+	margin-bottom: 35px;
+}
+.five .wrap{
+	border-bottom: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+.five p{
+	width: 400px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 0.9em;
+	margin-left: 700px;
+}
+.six .wrap{
+	background-color: #f8f8f8;
+	border: 1px solid #ccc;
+}
+.six .aside::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.six .aside>li:nth-child(1),.six .aside>li:nth-child(2){
+	float: left;
+}
+.six .aside>li:nth-child(1){
+	width: 155px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	float: left;
+	margin-left: 35px;
+}
+.six .aside>li:nth-child(2){
+	width: 460px;
+	height: 60px;
+	margin-left: 300px;
+	font-size: 0.9em;
+	text-align: right;
+}
+.six .aside>li:nth-child(2)>.one{
+	margin-top: 10px;
+}
+.six .aside>li:nth-child(2)>.two{
+	color: #999999;
+	margin-bottom: 10px;
+}
+.six .aside>li:nth-child(2)>p .red{
+	color: red;
+	font-size: 1.3em;
+	font-weight: bold;
+}
+.six .aside>li:nth-child(3){
+	float: right;
+	width: 120px;
+	height: 60px;
+	text-align: center;
+	background-color: #e31436;
+	position: relative;
+	/*color: white;*/
+	font-size: 1.5em;
+	line-height: 60px;
+}
+.six .aside>li:nth-child(3)>a{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	color: white;
+}
+.six .aside>li:nth-child(3):hover{
+	opacity: 0.8;
+}
+
+
+
+
+.under{
+	background-color: #333333;
+	height: 155px;
+	color: white;
+	font-size: 0.9em;
+    margin-top: 100px;
+}
+.under>div{
+	margin: 10px auto;
+	position: relative;
+	top: 15px;
+}
+.under .one{
+	margin-left:410px;
+	color: white;
+}
+.under a{
+	font-size: 1em;
+	color: white;
+}
+.under a:hover{
+	text-decoration: underline;
+}
+.under .two{
+	margin-left: 425px;
+}
+.under .three{
+	margin-left: 355px;
+	border: none;
+}
+.under .three>a>img{
+	position: relative;
+	bottom: -5px;
+}
+.under .four{
+	margin-left: 580px;
+}
+.under .four >a{
+	margin-right: 10px;
+}
